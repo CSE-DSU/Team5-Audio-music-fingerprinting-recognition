@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "DOT",
+    "slug": "DOT",
+    "version": "1.0.0",
+    "sdkVersion": "46.0.0",
+    "orientation": "portrait",
+    "proxy": "http://127.0.0.1:5000/",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.cds.dot",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d29fb9d1-1735-4778-afbc-38149070e7da"
+      }
+    }
+  }
+}
